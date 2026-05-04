@@ -1,0 +1,14 @@
+✅ Run OpenMP C++ program on Linux (quick steps)
+
+Verify
+g++ --version 
+
+1. Install compiler (if not installed)
+sudo apt update
+sudo apt install g++
+
+2. Compile your program
+g++ -fopenmp file.cpp -o output
+
+3. Run the program
+./output

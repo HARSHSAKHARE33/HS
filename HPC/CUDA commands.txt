@@ -1,0 +1,19 @@
+🔹 Check CUDA installed
+nvcc --version
+
+Run CUDA File
+1️⃣ Compile
+nvcc program.cu -o output
+
+2️⃣ Run
+./output
+
+
+
+google colab: select runtime --> change Runtime to T4 GPU
+
+!ls
+!nvcc --version
+%%writefile program.cu
+nvcc program.cu -o output
+./output
