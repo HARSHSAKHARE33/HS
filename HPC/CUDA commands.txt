@@ -1,3 +1,4 @@
+With NVIDIA GPU in linux terminal
 🔹 Check CUDA installed
 nvcc --version
 
@@ -9,11 +10,13 @@ nvcc program.cu -o output
 ./output
 
 
+Without NVIDIA GPU use Google Colab
 
 google colab: select runtime --> change Runtime to T4 GPU
 
-!ls
-!nvcc --version
-%%writefile program.cu
-nvcc program.cu -o output
-./output
+1.  !ls
+2.  !nvcc --version
+3.  %%writefile program.cu
+    //write your code here
+4.  !nvcc program.cu -o output
+5.  !./output
